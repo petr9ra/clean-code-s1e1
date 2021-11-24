@@ -37,7 +37,7 @@ body {
     display: inline-block;
     flex-grow: 1
 }
-.task-row-wrapper {
+.task-row-wrap {
     display: flex;
 }
 ul {
@@ -124,12 +124,12 @@ li > label {
 li > input[type="text"] {
     width: 226px
 }
-button.delete img {
+button.del img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.del img:hover {
     transform: rotateZ(0);
 }
 
